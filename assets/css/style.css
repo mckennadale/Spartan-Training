@@ -1,5 +1,6 @@
 /* Navbar & Logo */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,8 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: rgba(187, 154, 6, .7);
+ 
      }  
 
 h2 {
@@ -27,6 +30,7 @@ ul {
     float: left;
     font-size: 280%;
     text-transform: uppercase;
+    color: #BB0627;
 }
 
 .logo,
@@ -37,6 +41,9 @@ ul {
 nav li {
     float: right;
     margin-right: 30px;
+    color: #BB0627;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 nav a {
@@ -45,12 +52,14 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #BB0627;
 }
 
 .active {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #BB0627;
 }
+
+
 
 
 /* hero image */
@@ -68,6 +77,8 @@ nav a:hover {
     height: 100%;
     width: 100%;
     background: url(../images/hero-image-3.webp) no-repeat center center;
+    background-size: cover;
+    background-position: center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -99,11 +110,45 @@ nav a:hover {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(187, 6, 39, .7);
     
     top: 150px;
     left: 150px;
     position: absolute;
+}
+
+
+/* workouts */
+
+#workouts {
+    background-color: rgba(187, 154, 6, .7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#workouts div {
+    color: #ffffff;
+;
+    background-color: rgba(187, 6, 39, 12);
+    width: 19%;
+    height: 600px;
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+    padding:  30px 0 0 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#workouts div h2 {
+    color: #ffffff;
+}
+
+#workouts div h4 {
+    font-family: 'Orbitron', sans-serif;
 }
 
 /* social links */
@@ -124,5 +169,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #BB0627;
 }
