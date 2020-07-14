@@ -117,21 +117,63 @@ nav a:hover {
     position: absolute;
 }
 
-/* Quotes */
-.text-uppercase {
-font-family: 'Orbitron', sans-serif;
-color: #BB0627;
-text-align: center;
-text-transform: uppercase;
-padding-top: 20px;
-padding-bottom: 20px;
-word-spacing: 2px;
-font-size: 40px;
-font-weight: bold;
+    #workout-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
+#workout-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 100%;
+    background: url(../images/dumbbell-image-2.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
 
+/* Quotes */
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
 
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    color: #BB0627;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.text-uppercase {
+    text-align: center;
+    color: #BB0627;
+    padding-top: 30px;
+}
+
+.feature h3 {
+    color: #BB0627;
+}
+
+.feature p {
+    color: #000;
+    font-family: 'Raleway' sans-serif;
+}
 
 
 

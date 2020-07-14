@@ -3,152 +3,400 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;669;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    
     <title>Spartan Training</title>
 </head>
 
 <body>
     <header>
-         <a href="index.html">
-            <h2 class="logo">Spartan Training</h2>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="/sign-up.html">Sign Up</a>
-                </li>
-                <li>
-                    <a href="/meal-plans.html">Meal Plans</a>
-                </li>
-                <li>
-                    <a class="active" href="/workout.html">Workouts</a>
-                </li>
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">Spartan Training</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon">   
+                <i class="fas fa-bars" style="color:#BB0627; font-size:28px;"></i>
+             </span>
+           </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Workouts</a>
+              <a class="nav-item nav-link" href="#">Meal Plans</a>
+              <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
+        </div>
+      </div>
+    </nav>
     </header>
 
-    <section id="workouts">
-       <div>
-            <h2>Monday <i class=></i></h2>
-            <br>
-            <h2>Chest</h2>
-            <br>
-            <br>
-            <br>
-            <h4>Warm-Up 10 minute strecth</h4>
-            <br>
-            <h4>Bench Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Incline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Decline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dumbbell Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dummbell Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Cable Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Warm-Down 10 minute stretch</h4> 
-        </div>
-        <div>
-             <h2>Tuesday <i class=></i></h2>
-            <br>
-            <h2>Back</h2>
-            <br>
-            <br>
-            <br>
-            <h4>Warm-Up 10 minute strecth</h4>
-            <br>
-            <h4>Bench Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Incline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Decline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dumbbell Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dummbell Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Cable Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Warm-Down 10 minute stretch</h4>
-        </div>
-        <div>
-             <h2>Wednesday <i class=></i></h2>
-            <br>
-            <h2>Arms</h2>
-            <br>
-            <br>
-            <br>
-            <h4>Warm-Up 10 minute strecth</h4>
-            <br>
-            <h4>Bench Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Incline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Decline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dumbbell Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dummbell Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Cable Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Warm-Down 10 minute stretch</h4>
-        </div>
-        <div>
-             <h2>Thursday <i class=></i></h2>
-            <br>
-            <h2>Legs</h2>
-            <br>
-            <br>
-            <br>
-            <h4>Warm-Up 10 minute strecth</h4>
-            <br>
-            <h4>Bench Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Incline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Decline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dumbbell Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dummbell Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Cable Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Warm-Down 10 minute stretch</h4>
-        </div>
-        <div>
-            <h2>Friday <i class=></i></h2>
-            <br>
-            <h2>Shoulders</h2>
-            <br>
-            <br>
-            <br>
-            <h4>Warm-Up 10 minute strecth</h4>
-            <br>
-            <h4>Bench Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Incline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Decline Benchpress 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dumbbell Press 5 sets of 12 reps</h4>
-            <br>
-            <h4>Dummbell Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Cable Flys 5 sets of 16 reps</h4>
-            <br>
-            <h4>Warm-Down 10 minute stretch</h4>
-        </div>
-    </section>
+        <section id="workout-outer">
+             <div class="container-fluid callout-container" id="workout-image">
+                 <div class="row">
+                    <div class="col-12">
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+
+    <!--Workouts Chest-->
+        <div class="container-wrapper container-wrapper--gold">
+        <div class="container-fluid features-container content-container">
+		<section class=" features">
+			<div class="row">
+				<div class="col-12 page-header">
+					<h2 class="text-uppercase">Workouts:</h2>
+                    <br>
+                    <h3>Monday Chest</h3>
+                    <hr class="block-divider--white block-divider--short ">
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-gift d-none d-sm-block"></i>Bench Press</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 d-md-none d-lg-block col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+			</div>
+           </div> 
+		</section>
+<!--Workouts Chest End-->
+
+<!--Workouts Arms-->
+        <div class="container-wrapper container-wrapper--gold">
+        <div class="container-fluid features-container content-container">
+		<section class=" features">
+			<div class="row">
+				<div class="col-12 page-header">
+					<h2 class="text-uppercase">Workouts:</h2>
+                    <br>
+                    <h3>Monday Chest</h3>
+                    <hr class="block-divider--white block-divider--short ">
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-gift d-none d-sm-block"></i>Bench Press</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 d-md-none d-lg-block col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+			</div>
+           </div> 
+		</section>
+<!--Workouts Arms End-->
+
+<!--Workouts Back-->
+        <div class="container-wrapper container-wrapper--gold">
+        <div class="container-fluid features-container content-container">
+		<section class=" features">
+			<div class="row">
+				<div class="col-12 page-header">
+					<h2 class="text-uppercase">Workouts:</h2>
+                    <br>
+                    <h3>Monday Chest</h3>
+                    <hr class="block-divider--white block-divider--short ">
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-gift d-none d-sm-block"></i>Bench Press</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 d-md-none d-lg-block col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+			</div>
+           </div> 
+		</section>
+<!--Workouts Back End-->
+
+<!--Workouts Shoulders-->
+        <div class="container-wrapper container-wrapper--gold">
+        <div class="container-fluid features-container content-container">
+		<section class=" features">
+			<div class="row">
+				<div class="col-12 page-header">
+					<h2 class="text-uppercase">Workouts:</h2>
+                    <br>
+                    <h3>Monday Chest</h3>
+                    <hr class="block-divider--white block-divider--short ">
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-gift d-none d-sm-block"></i>Bench Press</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 d-md-none d-lg-block col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+			</div>
+           </div> 
+		</section>
+<!--Workouts Shoulders End-->
+
+<!--Workouts Legs-->
+        <div class="container-wrapper container-wrapper--gold">
+        <div class="container-fluid features-container content-container">
+		<section class=" features">
+			<div class="row">
+				<div class="col-12 page-header">
+					<h2 class="text-uppercase">Workouts:</h2>
+                    <br>
+                    <h3>Monday Chest</h3>
+                    <hr class="block-divider--white block-divider--short ">
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3>Bench Press</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+
+				<div class="col-12 d-md-none d-lg-block col-lg-3">
+					<div class="feature">
+						<h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+					</div>
+				</div>
+			</div>
+        </div>  
+		</section>
+
+
+		<!--Workouts Legs End-->
+
+    
     <footer>
         <ul class="social-networks">
                 <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
