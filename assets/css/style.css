@@ -164,6 +164,9 @@ nav a:hover {
     text-align: center;
     color: #BB0627;
     padding-top: 30px;
+    font-family: 'Raleway' sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .feature h3 {
@@ -210,6 +213,13 @@ nav a:hover {
 
 #workouts div h4 {
     font-family: 'Orbitron', sans-serif;
+}
+
+.workout-day {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
 }
 
 /* social links */
