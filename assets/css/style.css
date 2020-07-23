@@ -15,6 +15,15 @@ body {
 
 
 /* Navbar */
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(187, 154, 6, .7);
+}
 
 .navbar-brand {
     color: #BB0627;
@@ -35,7 +44,7 @@ nav a:hover {
 
 
 .navbar-custom {
-    background-color: rgba(187, 154, 6, .7);
+    background-color: rgba(187, 154, 6, 1);
 }
 
 .nav-item {
@@ -57,8 +66,16 @@ nav a:hover {
     font-weight: bold;
     text-transform: uppercase;
 }
- 
 
+@media (max-width: 575px) {
+    button.navbar-toggler {
+        position: absolute !important;
+        right: 0px !important;
+        top: 18px !important;
+    }
+ }
+ 
+ 
 
 /* hero image */
 
@@ -247,6 +264,13 @@ nav a:hover {
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 5px;
+    text-align: center;
+}
+
+.workout-type {
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
 }
 
 /* social links */
@@ -280,7 +304,7 @@ nav a:hover {
 	.signup-form {
 		width: 900px;
 		margin: 0 auto;
-        padding-top: 20px;
+        padding-top: 80px;
 	}
     .signup-form form {
 		color: #fff;
