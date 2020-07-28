@@ -15,10 +15,10 @@
 <body>
     <header>
       <nav class="fixed-nav-bar navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="#">Spartan Training</a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./index.html">Spartan Training</a>
+           <button class="navbar-toggler btn btn-sm align-right btn-primary ml-3 order-lg-last" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon">   
-                <i class="fas fa-bars" style="color:#BB0627; font-size:28px;"></i>
+                <i class="fas fa-bars" style="color:#BB0627; font-size:28px; display:inline-block;"></i>
              </span>
            </button>
 
@@ -26,8 +26,8 @@
         <div class="navbar-nav">
               <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="./workout.html">Workouts</a>
-              <a class="nav-item nav-link" href="./meal-plans.html">Meal Plans</a>
-              <a class="nav-item nav-link active" href="#">Sign Up</a>
+              <a class="nav-item nav-link" href="./meal-pans.html">Meal Plans</a>
+              <a class="nav-item nav-link" href="#">Sign Up</a>
         </div>
       </div>
     </nav>
@@ -49,27 +49,26 @@
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Full name" type="text">
+        <input name="FirstName" class="form-control" placeholder="Full name" type="text" required>
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Email address" type="email">
+        <input name="Email" class="form-control" placeholder="Email address" type="email" required>
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		</div>
-        <input class="form-control" placeholder="Create password" type="password">
+        <input name="password" class="form-control" placeholder="Create password" type="password" required>
     </div> <!-- form-group// -->                                      
     <div class="form-group">
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
+<button type="button" class="btn btn-custom btn-block" data-toggle="modal" data-target="#exampleModal">
+  Sign Up
 </button>
-    </div> <!-- form-group// -->      
-    <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
+    </div> <!-- form-group// -->                                                                     
 </form>
 </article>
 </div> <!-- card.// -->
@@ -91,14 +90,19 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-custom"><a class="btn-custom" href="./index.html">Back To Homepage</a></button>
       </div>
     </div>
   </div>
 </div>
-    <div class="footer">
-  <p>Footer</p>
-</div>
+    <footer id="footer">
+        <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"

@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 .navbar .navbar-brand {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
@@ -61,20 +61,15 @@ nav a:hover {
 }
 
 .navbar-nav .nav-item {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-@media (max-width: 575px) {
-    button.navbar-toggler {
-        position: absolute !important;
-        right: 0px !important;
-        top: 18px !important;
-    }
+ .navbar-collapse {
+     background-color: rgba(187, 154, 6, 1);
  }
- 
  
 
 /* hero image */
@@ -187,13 +182,6 @@ nav a:hover {
     font-family: 'Orbitron', sans-serif;
 }
 
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-    color: #BB0627;
-}
-
 .feature .btn {
     background-color: white;
     border-color: white;
@@ -217,15 +205,22 @@ nav a:hover {
     color: #BB0627;
 }
 
-.feature p {
+.blockquote {
     color: #000;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Orbitron' sans-serif;
+    font-weight: bold;
 }
 
-
-
+.owner-message {
+     text-align: center;
+    padding-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: #BB0627;
+}
 
 /* Quotes */
+
+
 /* workouts */
 
 #workouts {
@@ -275,15 +270,10 @@ nav a:hover {
 
 /* social links */
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  height: 40px;
+#footer {
+    bottom : 0;
+    height : 50px;
+    margin-top : 50px;
 }
 
 .social-networks {
@@ -295,7 +285,7 @@ nav a:hover {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 130%;
     margin: 1%;
     padding: 5%;
     color: #BB0627;
@@ -304,117 +294,16 @@ nav a:hover {
 /*media queries*/
 
 /* Sign Up Styling */
-
-.form-control, .form-control:focus, .input-group-addon {
-		border-color: #fff;
-	}
-    .form-control, .btn {        
-        border-radius: 3px;
-    }
-	.signup-form {
-		width: 900px;
-		margin: 0 auto;
-        padding-top: 100px;
-	}
-    .signup-form form {
-		color: #fff;
-		border-radius: 10px;
-    	margin-bottom: 15px;
-        background: rgba(187, 6, 39, .7);
-        box-shadow: 0px 2px 2px #BB0627;
-        padding: 30px;
-    }
-	.signup-form h2 {
-		color: #fff;
-		font-weight: bold;
-        margin-top: 0;
-    }
-    .signup-form hr {
-        margin: 0 -30px 20px;
-    }
-	.signup-form .form-group {
-		margin-bottom: 20px;
-	}
-	.signup-form label {
-		font-weight: normal;
-		font-size: 13px;
-	}
-	.signup-form .form-control {
-		min-height: 38px;
-		box-shadow: none !important;
-	}	
-	.signup-form .input-group-addon {
-		max-width: 42px;
-		text-align: center;
-	}
-	.signup-form input[type="checkbox"] {
-		margin-top: 2px;
-	}   
-    .signup-form .btn{        
-        font-size: 16px;
-        font-weight: bold;
-		background: rgba(187, 154, 6);
-		border: none;
-		min-width: 140px;
-    }
-	.signup-form .btn:hover, .signup-form .btn:focus {
-		background: #BB0627;
-        outline: none;
-	}
-	.signup-form a {
-		color: rgba(187, 6, 39, .7);	
-		text-decoration: underline;
-	}
-	.signup-form a:hover {
-		text-decoration: none;
-	}
-	.signup-form form a {
-		color: rgba(187, 6, 39, .7);
-		text-decoration: none;
-	}	
-	.signup-form form a:hover {
-		text-decoration: underline;
-	}
-	.signup-form .fa {
-		font-size: 21px;
-	}
-	.signup-form .fa-paper-plane {
-		font-size: 18px;
-	}
-	.signup-form .fa-check {
-		color: rgba(187, 6, 39, .7);
-		left: 17px;
-		top: 18px;
-		font-size: 7px;
-		position: absolute;
-	}
-
-    .fa-paper-plane {
-        padding-right: 10px;
-    }
-
-    .fa-user {
-        padding-right: 10px;
-    }
-
-    .fa-lock {
-        padding-right: 10px;
-    }
-
-
-@media screen and (max-width: 320px) {
-
-    .signup-form {
-        max-width: 140px;
-    }
+.modal-content {
+    background-color: #BB0627;
 }
 
 .modal-body {
-    color: #666
+    color: #fff;
 }
 
 .modal-title {
-    color: #666;
+    color: #fff;
 }
 
 .divider-text {
@@ -422,6 +311,8 @@ nav a:hover {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .divider-text span {
     padding: 7px;
@@ -457,4 +348,28 @@ nav a:hover {
 .sign-up-button {
     align-content: center;
     padding-right: 10px;
+}
+
+.btn-custom {
+    background-color: rgba(187, 154, 6);
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-custom:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.text-center {
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Orbitron' sans-serif;
 }
