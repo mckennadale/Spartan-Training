@@ -1,114 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;669;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
-    <title>Spartan Training</title>
-</head>
-
-<body>
-    <header>
-      <nav class="fixed-nav-bar navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="./index.html">Spartan Training</a>
-           <button class="navbar-toggler btn btn-sm align-right btn-primary ml-3 order-lg-last" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;669;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Spartan Training</title>
+    </head>
+    <body>
+        <header>
+        <!-- NAVBAR -->
+            <nav class="fixed-nav-bar navbar navbar-expand-lg navbar-custom">
+                <a class="navbar-brand" href="./index.html">Spartan Training</a>
+                <button class="navbar-toggler btn btn-sm align-right btn-primary ml-3 order-lg-last" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">   
                 <i class="fas fa-bars" style="color:#BB0627; font-size:28px; display:inline-block;"></i>
-             </span>
-           </button>
+                </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="./workout.html">Workouts</a>
+                        <a class="nav-item nav-link" href="./meal-plans.html">Meal Plans</a>
+                        <a class="nav-item nav-link active" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+            <!--/.NAVBAR -->
+        </header>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-              <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="./workout.html">Workouts</a>
-              <a class="nav-item nav-link" href="./meal-pans.html">Meal Plans</a>
-              <a class="nav-item nav-link" href="#">Sign Up</a>
+        <!-- SIGN-UP FORM -->
+        <div class=" container-fluid card sign-up-card">
+            <article class="card-body mx-auto" style="max-width: 400px;">
+                <h4 class="card-title mt-3 text-center">Create Account</h4>
+                <p class="text-center">Get started with your free account</p>
+                <p>
+                    <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
+                    <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
+                </p>
+                <p class="divider-text">
+                    <span class="bg-light">OR</span>
+                </p>
+                <form>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input name="FirstName" class="form-control" placeholder="Full name" type="text" required>
+                    </div>
+                    
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                        </div>
+                        <input name="Email" class="form-control" placeholder="Email address" type="email" required>
+                    </div>
+                    
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input name="password" class="form-control" placeholder="Create password" type="password" required>
+                    </div>
+                                                        
+                    <div class="form-group">
+                        
+                        <button type="button" class="btn btn-custom-1 btn-block" data-toggle="modal" data-target="#exampleModal">
+                        Sign Up
+                        </button>
+                    </div>
+                </form>
+            </article>
         </div>
-      </div>
-    </nav>
-    </header>
-      
-      <div class=" container-fluid card sign-up-card">
-<article class="card-body mx-auto" style="max-width: 400px;">
-	<h4 class="card-title mt-3 text-center">Create Account</h4>
-	<p class="text-center">Get started with your free account</p>
-	<p>
-		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
-		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
-	</p>
-	<p class="divider-text">
-        <span class="bg-light">OR</span>
-    </p>
-	<form>
-	<div class="form-group input-group">
-		<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-		 </div>
-        <input name="FirstName" class="form-control" placeholder="Full name" type="text" required>
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-		 </div>
-        <input name="Email" class="form-control" placeholder="Email address" type="email" required>
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input name="password" class="form-control" placeholder="Create password" type="password" required>
-    </div> <!-- form-group// -->                                      
-    <div class="form-group">
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-custom btn-block" data-toggle="modal" data-target="#exampleModal">
-  Sign Up
-</button>
-    </div> <!-- form-group// -->                                                                     
-</form>
-</article>
-</div> <!-- card.// -->
- 
-<!--container end.//-->
+        <!--/. SIGN-UP FORM -->
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sucessful Sign-Up</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>You Have Now Sucessfully Signed Up For Spartan Training!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-custom"><a class="btn-custom" href="./index.html">Back To Homepage</a></button>
-      </div>
-    </div>
-  </div>
-</div>
-    <footer id="footer">
-        <ul class="social-networks">
+        <!-- MODAL -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sucessful Sign-Up</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>You Have Now Sucessfully Signed Up For Spartan Training!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-custom"><a class="btn-custom" href="./index.html">Back To Homepage</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/. MODAL -->
+
+        <footer>
+        <!--SOCIAL LINKS & FOOTER-->
+            <ul class="social-networks">
                 <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
                 <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
             </ul>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+            <!--/.SOCIAL LINKS & FOOTER-->
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>

@@ -300,10 +300,12 @@ nav a:hover {
 
 .modal-body {
     color: #fff;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .modal-title {
     color: #fff;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .divider-text {
@@ -350,16 +352,31 @@ nav a:hover {
     padding-right: 10px;
 }
 
+.btn-custom-1 {
+background-color: rgba(187, 154, 6, 1);
+font-family:'Orbitron', sans-serif;
+font-weight: bold;
+color: #fff;
+
+}
+
 .btn-custom {
-    background-color: rgba(187, 154, 6);
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .btn-custom:hover {
     text-decoration: none;
-    color: #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
 }
 
 .btn-secondary {
@@ -371,5 +388,5 @@ nav a:hover {
 .text-center {
     font-weight: bold;
     color: #fff;
-    font-family: 'Orbitron' sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
