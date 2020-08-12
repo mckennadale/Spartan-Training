@@ -41,3 +41,16 @@ Strategy plane: From the onset, I knew that my primary aim was to help users hav
 Scope plane: Having decided the main purpose for the project, I began identfying the key features i wanted the platform to feature. To do so, I focused on the features and style I wanted to implement, as I knew this would be important in creating an enjoyable experience for the user. This led me to decide that I wanted to focus on a site with three features: a workout page, a meal plan page and a sign up page.
 
 Strcuture plane: Once I had the features I wanted to include, I began to structure my design into four seperate pages: 'Home', 'Workouts', 'Meal Plans', 'Sign Up'. The 'Home' page would welcome users to the project with a inspiring hero image and info regarding the company. The user can then continue to 'Workouts' to learn and see a daily workouts, the user can then proceed to: 'Meal Plans'. The user can then proceed to the 'Sign Up' page to sign up for new workouts and meal plans.
+
+Skeleton plane: As though out in the structre plane, I considered the main way for the user to navigate the website, through the a fixed navbar. The reason for this was to give the user a simple way to navigate through the site. The user can navigate through the site a view the content eaily learning about workous and meal plans before then having the option to sign up.
+
+Surface plane:
+
+* For my design to work, I knew that it would be extremely importnat to create a platform that looked high value and created a community feel to stand out from the competition. There is a lot of bodybuilding and gym sites, as nowadays it has become a really popular area with lots of content available to internet users. My first design decision was to create a platform that stood out and scramed different from all other workout sites, rather than something users have seen before, with valuable color scheme and inspiring images that would inspire the user and make them buy into the Spartan community.
+
+* With this aim, I began creating and experimenting with my wireframes on wireframe.cc. As this was my first Milestone Project I found this difficult to master at the beginning, I found it useful to see the layout of my design on a screen as opposed to just in my head. When settling on the color scheme I went with traditional Spartan colors of gold and red: I began searching the red and gold that would best represent Spartan Training, I used the website HTML Color Codes which gives suggestions of which colors compliment each other, the red (#BB0627) was found on HTML Color Codes, whilst the gold rgba(187, 154, 6, .7) compliments the red color well and really embodies the color of a spartan warrior.
+
+* I used Google Fonts to selct the fonts that would be used in my project. I wanted to find two similar fonts that would fit in with the spartan theme i had envisioned for my site. As a result, I settled for Orbitron for the majority of the site and Raleway for other parts.
+
+* With the wireframes complete. I created the basic structure and code with HTML, CSS and Bootstrap from my earlier modules the Code Institute gave outstanding examples of using the Bootstrap grid system and great design ideas.
+
