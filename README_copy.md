@@ -1,6 +1,8 @@
 # Code Institute: First Milestone Project
 # Spartan Training
 
+! [Screenshot Of Project On Different Platforms](assets/images/spartantraining-responsiveness-test.PNG)
+
 Spartan Training is a fictional fitness website that aims to help and inform people on how to achieve their fitness goals. My aim with this project was to create a website for the user to learn more about workouts and diet plans with the option to sign-up for futher workout information.
 
 I got the idea for this project to provide users with quick access to both workouts and diet plans as I found it difficult to locate a site that provides both pieces of information so readily. As I had just completed an introductory module on HTML, CSS and Bootstrap, I decided to implement HTML, CSS and Bootstrap in different ways throughout my project.
