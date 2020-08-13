@@ -9,7 +9,7 @@ I got the idea for this project to provide users with quick access to both worko
 
 This was the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute. The main requirements were to make a static and responsive website with HTML5, CSS3 and Bootstrap.
 
-Click here to view the project live. ** ADD Link Here ***
+Click here to view the project live. [Spartan Training](https://mckennadale.github.io/Spartan-Training/index.html)
 
 # UX
 ## Main Aims
@@ -56,3 +56,6 @@ Surface plane:
 
 * With the wireframes complete. I created the basic structure and code with HTML, CSS and Bootstrap from my earlier modules the Code Institute gave outstanding examples of using the Bootstrap grid system and great design ideas.
 
+# Wireframing on Wireframe.cc
+
+![Wireframe](assets/images/Milestone project homepage.PNG)
