@@ -58,4 +58,10 @@ Surface plane:
 
 # Wireframing on Wireframe.cc
 
-![Wireframe](assets/images/Milestone project homepage.PNG)
+![Wireframe](assets/images/milestone-project-homepage.PNG)
+
+![Wireframe](assets/images/workout-page-milestone-project.PNG)
+
+![Wireframe](assets/images/dietpage-milestone-project.PNG)
+
+![Wireframe](assets/images/sign-up-page-milestone-project.PNG)
