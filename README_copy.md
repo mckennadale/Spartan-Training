@@ -65,3 +65,22 @@ Surface plane:
 ![Wireframe](assets/images/dietpage-milestone-project.PNG)
 
 ![Wireframe](assets/images/sign-up-page-milestone-project.PNG)
+
+# Features
+
+## Existing Features
+This project consists of four pages, all four pages can be accessed using the navbar, index.html can also be accessed by clicking on the Spartan Training title.
+
+### Features across all pages
+
+* The navbar and footer is consistent throughout the website.
+* Each page features and red and gold color scheme, the font remains the same on all pages.
+* All pages apart form the sign-up page feature an inspiring fixed hero image with a zoom feature.
+
+### Home
+
+* The user is introduced to a powerful inspiring homepage, with inspirational text to compliment the image.
+* The user is then presented with information of how Spartan Training was formed.
+* Below this the user can read about Spartan Training's values and promise to them.
+
+### Workouts
