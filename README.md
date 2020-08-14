@@ -48,13 +48,16 @@ Skeleton plane: As though out in the structre plane, I considered the main way f
 
 Surface plane:
 
-* For my design to work, I knew that it would be extremely importnat to create a platform that looked high value and created a community feel to stand out from the competition. There is a lot of bodybuilding and gym sites, as nowadays it has become a really popular area with lots of content available to internet users. My first design decision was to create a platform that stood out and scramed different from all other workout sites, rather than something users have seen before, with valuable color scheme and inspiring images that would inspire the user and make them buy into the Spartan community.
+* For my design to work, I knew that it would be extremely important to create a platform that looked high value and created a community feel to stand out from the competition. There is a lot of bodybuilding and gym sites, as nowadays it has become a really popular area with lots of content available to internet users. My first design decision was to create a platform that stood out and scramed different from all other workout sites, rather than something users have seen before, with valuable color scheme and inspiring images that would inspire the user and make them buy into the Spartan community.
 
 * With this aim, I began creating and experimenting with my wireframes on wireframe.cc. As this was my first Milestone Project I found this difficult to master at the beginning, I found it useful to see the layout of my design on a screen as opposed to just in my head. When settling on the color scheme I went with traditional Spartan colors of gold and red: I began searching the red and gold that would best represent Spartan Training, I used the website HTML Color Codes which gives suggestions of which colors compliment each other, the red (#BB0627) was found on HTML Color Codes, whilst the gold rgba(187, 154, 6, .7) compliments the red color well and really embodies the color of a spartan warrior.
 
 * I used Google Fonts to selct the fonts that would be used in my project. I wanted to find two similar fonts that would fit in with the spartan theme i had envisioned for my site. As a result, I settled for Orbitron for the majority of the site and Raleway for other parts.
 
 * With the wireframes complete. I created the basic structure and code with HTML, CSS and Bootstrap from my earlier modules the Code Institute gave outstanding examples of using the Bootstrap grid system and great design ideas.
+
+## Note:
+*The original color scheme for the site was to be sky blue and white as can be seen from the wireframes below. However this did not really represent the look and feel i wanted the site to have. There was alos some structural changes made to the original wireframes as they did not give the value i had been hoping they would.*
 
 # Wireframing on Wireframe.cc
 
@@ -84,3 +87,15 @@ This project consists of four pages, all four pages can be accessed using the na
 * Below this the user can read about Spartan Training's values and promise to them.
 
 ### Workouts
+
+* In the workout section the user is introduced to various workouts, which have been organised into a daily workouts for each body part.
+* Each day has four workouts for the user to follow, which informs the user how many reps they should perform, weight they should use and rest period in between workouts.
+* Below each workout there is a see how you do it button which takes the user to a youtube video instructing the user how to perform the exercise safely and effectively.
+* Each section of the workout page is horizontally divided.
+
+# Meal Plans 
+
+* In the meal plans section the user is introduced to a daily meal plan to follow. Each day consists of three meals morning, afternoon and evening.
+* The user is provided with a simple and effective diet plan to help the user achieve their desired goals.
+* Each section of the meal plans page is horizontally divided.
+
