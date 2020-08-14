@@ -159,28 +159,24 @@ I used the Chrome Developer tools throughout my project to view padding and marg
 #### Deploying my project
 I created my project on GitHub and used GitPod's development environment to write my code. Use the following link to view my live project: [Spartan Training](https://mckennadale.github.io/Spartan-Training/index.html)
 
-Deploying to GitHub Pages
+#### Deploying to GitHub Pages
 To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
 
-I opened the 'Settings' section of my project repository in GitHub.
-From there, I scrolled to the 'GitHub Pages' section.
-Here I selected 'master branch' as my Source.
-This deployed my project on GitHub Pages and allowed me to share the live website with others.
-More information about this process can be found on the following link: Configuring a publishing source for your GitHub Pages site
+* I opened the 'Settings' section of my project repository in GitHub.
+* From there, I scrolled to the 'GitHub Pages' section.
+* Here I selected 'master branch' as my Source.
+* This deployed my project on GitHub Pages and allowed me to share the live website with others.
 
-Deploying with Google Maps API
-For this project, I also used a Google Maps API. I integrated this to my website in the following way:
+# Cloning my project
+If you would like to work on my project further you can clone it to your local machine using the following steps:
 
-I navigated to Gooogle's Getting started with Google Maps Platform, where I set up an account my account.
-From there I decided to use the 'Maps JavaScript API' and an API key with these steps on here.
-Once I had set up my Google Maps feature in my project as described here, I restricted the key's access to only my project's URL to limit its use for no other purposes.
-The above process can be copied if you would like to deploy a project with the Google Maps API feature.
+1. Scroll to the top of my repository and click on the "clone or download button"
+1. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
+   * HTTPS: click on the checklist icon to the right of the URL
+   * SSH key: first click on 'Use SSH' then click on the same icon as above
+1. Open the 'Terminal'
+1. Change the current working directory to the location where you want the cloned directory
+1. Type 'git clone', and then paste the URL you copied earlier.
+1. Press 'Enter' to create your local clone.
 
-Deploying with EmailJS
-I used EmailJS to automatically send me an email each time a user submits the Newsletter form. This feature can be implemented as follows:
-
-I created an account with EmailJS and navigated to this page
-I followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
-I chose to stay with a free account, which limits my monthly quota to 200 emails per month.
-The above process can be copied if you would like to deploy a project with the EmailJS service.
 
