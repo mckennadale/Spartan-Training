@@ -93,9 +93,94 @@ This project consists of four pages, all four pages can be accessed using the na
 * Below each workout there is a see how you do it button which takes the user to a youtube video instructing the user how to perform the exercise safely and effectively.
 * Each section of the workout page is horizontally divided.
 
-# Meal Plans 
+### Meal Plans 
 
 * In the meal plans section the user is introduced to a daily meal plan to follow. Each day consists of three meals morning, afternoon and evening.
 * The user is provided with a simple and effective diet plan to help the user achieve their desired goals.
 * Each section of the meal plans page is horizontally divided.
+
+### Sign Up 
+
+* The user is then introduced to the sign up page which is set on a red background a gives the user information regarding why they would sign up.
+* Once the user has filled in the necessary fileds and clicks sign up a modal pops up informing the user they have sucessfully signed up and gives them the option to close the pop up or to return to the homepage
+
+### Features Left to implement
+
+* A feature I would like to implement you'd be a backend feature that informs me someone has signed up and will also send the user an email thanking them for signing and providing weekly workout tips and other information the user may find interesting.
+* Another additional feature would be to add a member's section where users can sign in and access and community based page where they can track progress and share their stories with other members.
+
+# Technologies Used
+
+### Languages, libraries, frameworks, editors and version control
+
+#### HTML5
+The language used to create the form and add content to the website.
+
+#### CSS3
+The language used to style the HTML5 elements according to the design colour scheme.
+
+#### jQuery
+I used the jQuery library to help write the code for my hamburger menu.
+
+#### Bootstrap framework
+I decided to use Bootstrap's grid container system as I wanted to design my project with a 'mobile first' approach.
+
+#### Gitpod
+I relied on Gitpod's dev environment to write the code for my project.
+
+#### Git Version Control
+I used Git for Version Control to track and record changes to my code and refer back when needed.
+
+#### GitHub
+I hosted my deployed website to GitHub, with previous versions of my code stored through the commit history.
+
+# Additional tools used
+
+#### Wireframe.cc
+Wireframe.cc helped me design my project, by creating wireframes for my project.
+
+#### Google Fonts
+I used two complementary fonts from Google for my project: Orbitron and Raleway.
+
+#### W3C Markup Validation Service
+This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code.
+
+#### Am I responsive
+My mentor advised to use this tool it shows your site on various platforms to test responsiveness.
+
+#### Chrome Developer tools
+I used the Chrome Developer tools throughout my project to view padding and margin errors and also responsiveness.
+
+# Testing
+
+
+# Deployment
+
+#### Deploying my project
+I created my project on GitHub and used GitPod's development environment to write my code. Use the following link to view my live project: [Spartan Training](https://mckennadale.github.io/Spartan-Training/index.html)
+
+Deploying to GitHub Pages
+To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
+
+I opened the 'Settings' section of my project repository in GitHub.
+From there, I scrolled to the 'GitHub Pages' section.
+Here I selected 'master branch' as my Source.
+This deployed my project on GitHub Pages and allowed me to share the live website with others.
+More information about this process can be found on the following link: Configuring a publishing source for your GitHub Pages site
+
+Deploying with Google Maps API
+For this project, I also used a Google Maps API. I integrated this to my website in the following way:
+
+I navigated to Gooogle's Getting started with Google Maps Platform, where I set up an account my account.
+From there I decided to use the 'Maps JavaScript API' and an API key with these steps on here.
+Once I had set up my Google Maps feature in my project as described here, I restricted the key's access to only my project's URL to limit its use for no other purposes.
+The above process can be copied if you would like to deploy a project with the Google Maps API feature.
+
+Deploying with EmailJS
+I used EmailJS to automatically send me an email each time a user submits the Newsletter form. This feature can be implemented as follows:
+
+I created an account with EmailJS and navigated to this page
+I followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
+I chose to stay with a free account, which limits my monthly quota to 200 emails per month.
+The above process can be copied if you would like to deploy a project with the EmailJS service.
 
