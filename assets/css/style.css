@@ -1,11 +1,4 @@
-/* Navbar & Logo */
 
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -184,6 +177,13 @@ nav a:hover {
     font-family: 'Orbitron', sans-serif;
 }
 
+.feature-owner {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
 .feature .btn {
     background-color: white;
     border-color: white;
@@ -198,7 +198,7 @@ nav a:hover {
     text-align: center;
     color: #BB0627;
     padding-top: 30px;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -209,7 +209,7 @@ nav a:hover {
 
 .blockquote {
     color: #000;
-    font-family: 'Orbitron' sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
@@ -395,8 +395,3 @@ color: #fff;
 }
 
 
-.my-3 {
-    margin-top: ($spacer * .25) !important;
-    
-
-}

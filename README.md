@@ -153,6 +153,103 @@ I used the Chrome Developer tools throughout my project to view padding and marg
 
 # Testing
 
+The testing process is outlined below. It includes:
+
+* Testing User Stories
+* Validating HTML and CSS code
+* Checking website compatibility on different browsers
+* Checking responsiveness of design on all screen sizes
+* Manually testing the functionality of all links
+* Manually testing the workout page features
+* Manually testing the sign up form
+
+
+# Testing User Stories
+The following tests were to test the experience of each user mentioned earlier. 
+
+## Project stakeholders
+The creator of this project wanted a consistent and motivating design to inspire, encourage and attract users. This is acheived thorugh a beautiful color scheme that says to the user this is a high value site, along with powerful images that should inspire and motivate the user. Through this the creator would feel confident that a positive user experience would lead to more traffic for the webiste resulting in more people signing up and increasing the size of the Spartan community.
+
+## New users
+New user (who is new to physical activity):
+
+This user was completely new to physical activity, they would come to this website to learn more. Testing their navigation leads to the following journey through the website:
+* Home: The user can scroll down the homepage reading information about Spartan Training inspiring them before proceeding to the other pages.
+* Workouts: By clicking workouts on the navbar the user can scroll through various workouts reading each daily workout with the option of clicking a "See How To Do It" button to view the workout before trying it for themselves.
+* Meal Plans: By clicking workouts on the navbar the user can scroll through meal plans ranging from Monday to Friday, with different meals for each day.
+* Sign Up: Having gone trhough each of the websites pages the user can then sign up to Spartan Training for weekly workout and meal plan tips, once they press sign up a modal pops up thanking the user for signing up the modal can be closed and the user will remain on the sign up page, alternatively the user can click the back to homepage button which brings the user back to the homepage.
+* This user would leave with a positive experience, confident that they know more now than they did before.
+
+## Returning users
+
+Returning user (who is familiar with physical activity but wants to learn more):
+* As a returning user, this user has previously visited the website to learn new workouts. Now they want to remind themselves of the form that should be used when performing these excercises to prevent injury.
+* From the home page, select 'Workouts' from the navbar.
+* Scroll down to the particualr workout they want to view and click the "see How You Do It" button which loads the video instructing the user on how to perform the excericse safely and effectively.
+
+## Tablet user
+
+As an Ipad user, this user wanted to browse the site on an ipad and enjoy the content as if they were using a laptop or desktop.
+* Certain elements are presented in rows, as opposed to columns to allow a visually satisfying experience.
+
+
+## Validating the HTML, CSS and JavaScript code
+
+### HTML
+My HTML code was passed through the W3C Markup Validation Service. Doing so brought up the errors below that I resolved in the following ways:
+
+index.html - My homepage was missing some closing div tags, although this did not visually cause any errors on the page it did not pass the validation service so I had to review my code to correct this.
+workout.html - This file passed without any errors.
+meal-plans.html - This file passed without any errors.
+sign-up.html - On my sign-up page i was giving two errors by the Vaildation Service, the value for the attribute type was incorrect as I had "button submit" this was changed to just submit and the other error was that the anchor element must not appear as a descendant of the button element, I changed this by nesting the button element in a form element instaed which linked the user back to the homepage. This can be seen below.
+
+![Sign-Up page errors](assets/images/sign-up-page-errors.PNG)
+
+
+![Sign-Up page changes](assets/images/sign-up-form-change.PNG)
+
+
+### CSS
+I checked my CSS code with the W3C Markup Validation Service. This produced three errors.
+* Error one and two was there was a comma missing between fonts in the font-family style rule.
+* Error three was a .my-3 error this was a piece of code that I had forgotten to remove from my style sheet so this just had to be erased from the style sheet. Please see these errors below.
+
+![CSS Errors](assets/images/CSS-Code-Check.PNG)
+
+![CSS Validated](assets/images/CSS-Code-Check-Pass.PNG)
+
+### Testing compatibility with different browsers
+
+I manually tested the website on the following web browsers, checking that buttons, responsiveness and design worked as planned:
+
+* Google Chrome
+* Mozilla Firefox
+* Apple Safari
+
+### Testing the design's responsiveness on several screen sizes
+
+I manually tested the design of the live project by doing the following:
+
+* Using Google Developer Tools to view the project on devices with different screen sizes.
+* Checking whether the images and content was presented in an organised and structered way.
+* Making sure the navbar transformed into a hamburger menu on smaller devices
+* Asking for feedback from friends and family who opened and interacted with the project on their devices.
+
+#### Results and changes
+* These manual tests led to minor changes in spacing and sizes of various content on the site.
+* One noticable change was the size of the navbar brand as this would push the hamburger menu onto the next line as it was too large on smaller devices.
+
+### Manually testing the functionality of all links
+
+The following tests were made to see that all links responded as they should:
+
+* Social media links were clicked on to make sure that they open in a new tab at the correct corresponding landing page.
+* Navbar items were clicked on from each page to make sure that they navigate to the correct page.
+* All buttons were clicked on to check that they take the user to the correct page.
+* The modal is displayed ehn the sign button is clicked on the sign up page.
+* Clicking on the logo in the navbar leads the user back to the home page.
+* All buttons on the workout page take the user to the correct youtube page showing the user how to do the workout.
+
 
 # Deployment
 
@@ -178,5 +275,27 @@ If you would like to work on my project further you can clone it to your local m
 1. Change the current working directory to the location where you want the cloned directory
 1. Type 'git clone', and then paste the URL you copied earlier.
 1. Press 'Enter' to create your local clone.
+
+### Credits
+
+#### Content
+The content of this website is written by myself.
+
+#### Images
+The images are from Menshealth and Healthline which are referenced below.
+
+ * [Homepage Hero Image and Workout Page Hero Image](https://www.menshealth.com/)
+ * [Meal Plan Page Hero Image](https://www.healthline.com/nutrition/50-super-healthy-foods)
+
+ #### Workout Videos
+ * [Scott Hermann Fitness Channel Youtube](https://www.youtube.com/channel/UCEtMRF1ywKMc4sf3EXYyDzw)
+
+ #### Acknowledgements
+A big thanks is owed to the following people who helped, supported and inspired me throughout my project.
+
+* The guidance, support and critique of my mentor Seun Owonikoko
+* The support of Code Institute, fellow students on the Slack Community who viewed my project through the peer review, The Code Institute teachers who inspired a lot of the code used in this project which I learned in the modules leading up to this project.
+* Friends and Family who trsted the site and gave honest feedback throughout.
+
 
 
