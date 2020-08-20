@@ -170,8 +170,15 @@ nav a:hover {
     animation-fill-mode: forwards;
 }
 
+.rounded {
+    display: inline;
+  align-content: center;
+}
+
 /* Quotes */
+
 .feature {
+    padding-top: 10px;
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Orbitron', sans-serif;
@@ -345,9 +352,9 @@ nav a:hover {
 }
 
 .sign-up-card {
-    padding-top: 60px;
+    padding-top: 80px;
     align-content: center;
-    background-color: rgba(187, 6, 39, .7);
+    background-color: rgba(187, 154, 6, .3);
 }
 
 .sign-up-button {
@@ -356,7 +363,7 @@ nav a:hover {
 }
 
 .btn-custom-1 {
-background-color: rgba(187, 154, 6, 1);
+background-color: #BB0627;
 font-family:'Orbitron', sans-serif;
 font-weight: bold;
 color: #fff;
@@ -390,8 +397,9 @@ color: #fff;
 
 .text-center {
     font-weight: bold;
-    color: #fff;
+    color: #BB0627;
     font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
 }
 
 
