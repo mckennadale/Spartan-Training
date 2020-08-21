@@ -1,13 +1,15 @@
-
+/* BODY */
 
 body {
     font-family: 'Raleway', sans-serif;
     background-color: rgba(187, 154, 6, .7);
  
-     }  
+}  
 
+/* BODY */
 
-/* Navbar */
+/* NAVBAR */
+
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -65,9 +67,9 @@ nav a:hover {
      background-color: rgba(187, 154, 6, 1);
  }
  
- 
+ /* NAVBAR */
 
-/* hero image */
+/* HERO IMAGE */
 
 #hero-outer {
     height: 800px;
@@ -168,14 +170,16 @@ nav a:hover {
      animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
+    }
 
 .rounded {
     display: inline;
   align-content: center;
 }
 
-/* Quotes */
+/* HERO IMAGE */
+
+/* FEATURES */
 
 .feature {
     padding-top: 10px;
@@ -227,10 +231,10 @@ nav a:hover {
     color: #BB0627;
 }
 
-/* Quotes */
+/* FEATURES */
 
 
-/* workouts */
+/* WORKOUTS */
 
 #workouts {
     background-color: rgba(187, 154, 6, .7);
@@ -277,7 +281,9 @@ nav a:hover {
     font-size: 22px;
 }
 
-/* social links */
+/* WORKOUTS */
+
+/* SOCIAL LINKS */
 
 #footer {
     bottom : 0;
@@ -300,9 +306,10 @@ nav a:hover {
     color: #BB0627;
 }
 
-/*media queries*/
+/* SOCIAL LINKS */
 
-/* Sign Up Styling */
+/* SIGN UP STYLING */
+
 .modal-content {
     background-color: #BB0627;
 }
@@ -402,4 +409,4 @@ color: #fff;
     font-size: 20px;
 }
 
-
+/* SIGN UP STYLING */

@@ -1,7 +1,7 @@
 # Code Institute: First Milestone Project
 # Spartan Training
 
-![Website on different platforms](assets/images/spartantraining-responsiveness-test.PNG)
+![Website on different platforms](assets/images/reposnsive-website.png)
 
 Spartan Training is a fictional fitness website that aims to help and inform people on how to achieve their fitness goals. My aim with this project was to create a website for the user to learn more about workouts and diet plans with the option to sign-up for futher workout information.
 
@@ -27,26 +27,26 @@ To create a design that would be fully responsive on all devices and screen size
 # User Stories
 The following User Stories helped me to create a design that would satisfy the needs of various types of users.
 
-# Project stakeholders
+### Project stakeholders
 I am the creator of this platform and want to see it grow and succeed. I would like to attract users in the hope of helping users achieve their fitness goals and obtaining their best possible physique, and also increase the number of users who sign-up to the platform.
-# New user
+### New user
 I am a user who has never really had an interest in physical activity. I want to use this website to learn more about workouts and diet plans and implement them into my lifestyle.
-# Returning user
+### Returning user
 I have used this website to learn more about workouts especially the form that should be used with specific excercises by watching the videos, this has enabled me to get better results from my workouts and also prevents injuries.
-# Tablet user
+### Tablet user
 I am a user who prefers using my Ipad to browse the internet. I want to have a good experience on this website and enjoy the content as if I was using a desktop or laptop.
 
 # Design Process
 
-Strategy plane: From the onset, I knew that my primary aim was to help users have quick easy access to high quality workouts and diet plan material, in a way that made users feel part of something, engaging and memorable. As I had just begun to develop my Coding skills, my aim for this particular project was to design a project that combined what I have learned so far. I then started the UX process by creating a list of User Stories above, they enabled me to create a platform the would find valuable and useful.
+### Strategy plane: From the onset, I knew that my primary aim was to help users have quick easy access to high quality workouts and diet plan material, in a way that made users feel part of something, engaging and memorable. As I had just begun to develop my Coding skills, my aim for this particular project was to design a project that combined what I have learned so far. I then started the UX process by creating a list of User Stories above, they enabled me to create a platform the would find valuable and useful.
 
-Scope plane: Having decided the main purpose for the project, I began identfying the key features i wanted the platform to feature. To do so, I focused on the features and style I wanted to implement, as I knew this would be important in creating an enjoyable experience for the user. This led me to decide that I wanted to focus on a site with three features: a workout page, a meal plan page and a sign up page.
+### Scope plane: Having decided the main purpose for the project, I began identfying the key features i wanted the platform to feature. To do so, I focused on the features and style I wanted to implement, as I knew this would be important in creating an enjoyable experience for the user. This led me to decide that I wanted to focus on a site with three features: a workout page, a meal plan page and a sign up page.
 
-Strcuture plane: Once I had the features I wanted to include, I began to structure my design into four seperate pages: 'Home', 'Workouts', 'Meal Plans', 'Sign Up'. The 'Home' page would welcome users to the project with a inspiring hero image and info regarding the company. The user can then continue to 'Workouts' to learn and see a daily workouts, the user can then proceed to: 'Meal Plans'. The user can then proceed to the 'Sign Up' page to sign up for new workouts and meal plans.
+### Strcuture plane: Once I had the features I wanted to include, I began to structure my design into four seperate pages: 'Home', 'Workouts', 'Meal Plans', 'Sign Up'. The 'Home' page would welcome users to the project with a inspiring hero image and info regarding the company. The user can then continue to 'Workouts' to learn and see a daily workouts, the user can then proceed to: 'Meal Plans'. The user can then proceed to the 'Sign Up' page to sign up for new workouts and meal plans.
 
-Skeleton plane: As though out in the structre plane, I considered the main way for the user to navigate the website, through the a fixed navbar. The reason for this was to give the user a simple way to navigate through the site. The user can navigate through the site a view the content eaily learning about workous and meal plans before then having the option to sign up.
+### Skeleton plane: As though out in the structre plane, I considered the main way for the user to navigate the website, through the a fixed navbar. The reason for this was to give the user a simple way to navigate through the site. The user can navigate through the site a view the content eaily learning about workous and meal plans before then having the option to sign up.
 
-Surface plane:
+### Surface plane:
 
 * For my design to work, I knew that it would be extremely important to create a platform that looked high value and created a community feel to stand out from the competition. There is a lot of bodybuilding and gym sites, as nowadays it has become a really popular area with lots of content available to internet users. My first design decision was to create a platform that stood out and scramed different from all other workout sites, rather than something users have seen before, with valuable color scheme and inspiring images that would inspire the user and make them buy into the Spartan community.
 
@@ -114,42 +114,42 @@ This project consists of four pages, all four pages can be accessed using the na
 ### Languages, libraries, frameworks, editors and version control
 
 #### HTML5
-The language used to create the form and add content to the website.
+The language used to create the form and add content to the website. [HTML 5](https://en.wikipedia.org/wiki/HTML5)
 
 #### CSS3
-The language used to style the HTML5 elements according to the design colour scheme.
+The language used to style the HTML5 elements according to the design colour scheme. [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 #### jQuery
-I used the jQuery library to help write the code for my hamburger menu.
+I used the jQuery library to help write the code for my hamburger menu. [jQuery](https://jquery.com/)
 
 #### Bootstrap framework
-I decided to use Bootstrap's grid container system as I wanted to design my project with a 'mobile first' approach.
+I decided to use Bootstrap's grid container system as I wanted to design my project with a 'mobile first' approach. [Bootstrap](https://getbootstrap.com/)
 
 #### Gitpod
-I relied on Gitpod's dev environment to write the code for my project.
+I relied on Gitpod's dev environment to write the code for my project. [Gitpod](https://www.gitpod.io/)
 
 #### Git Version Control
-I used Git for Version Control to track and record changes to my code and refer back when needed.
+I used Git for Version Control to track and record changes to my code and refer back when needed. [Git Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
 #### GitHub
-I hosted my deployed website to GitHub, with previous versions of my code stored through the commit history.
+I hosted my deployed website to GitHub, with previous versions of my code stored through the commit history. [GitHub](https://github.com/)
 
 # Additional tools used
 
 #### Wireframe.cc
-Wireframe.cc helped me design my project, by creating wireframes for my project.
+Wireframe.cc helped me design my project, by creating wireframes for my project. [Wireframe.cc](https://wireframe.cc/)
 
 #### Google Fonts
-I used two complementary fonts from Google for my project: Orbitron and Raleway.
+I used two complementary fonts from Google for my project: Orbitron and Raleway. [Google Fonts](https://fonts.google.com/)
 
 #### W3C Markup Validation Service
-This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code.
+This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code. [W3C Validation Service](https://validator.w3.org/)
 
 #### Am I responsive
-My mentor advised to use this tool it shows your site on various platforms to test responsiveness.
+My mentor advised to use this tool it shows your site on various platforms to test responsiveness. [Am I Responsive](http://ami.responsivedesign.is/)
 
 #### Chrome Developer tools
-I used the Chrome Developer tools throughout my project to view padding and margin errors and also responsiveness.
+I used the Chrome Developer tools throughout my project to view padding and margin errors and also responsiveness. [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 # Testing
 
@@ -164,13 +164,13 @@ The testing process is outlined below. It includes:
 * Manually testing the sign up form
 
 
-# Testing User Stories
+## Testing User Stories
 The following tests were to test the experience of each user mentioned earlier. 
 
-## Project stakeholders
+### Project stakeholders
 The creator of this project wanted a consistent and motivating design to inspire, encourage and attract users. This is acheived thorugh a beautiful color scheme that says to the user this is a high value site, along with powerful images that should inspire and motivate the user. Through this the creator would feel confident that a positive user experience would lead to more traffic for the webiste resulting in more people signing up and increasing the size of the Spartan community.
 
-## New users
+### New users
 New user (who is new to physical activity):
 
 This user was completely new to physical activity, they would come to this website to learn more. Testing their navigation leads to the following journey through the website:
@@ -180,14 +180,14 @@ This user was completely new to physical activity, they would come to this websi
 * Sign Up: Having gone trhough each of the websites pages the user can then sign up to Spartan Training for weekly workout and meal plan tips, once they press sign up a modal pops up thanking the user for signing up the modal can be closed and the user will remain on the sign up page, alternatively the user can click the back to homepage button which brings the user back to the homepage.
 * This user would leave with a positive experience, confident that they know more now than they did before.
 
-## Returning users
+### Returning users
 
 Returning user (who is familiar with physical activity but wants to learn more):
 * As a returning user, this user has previously visited the website to learn new workouts. Now they want to remind themselves of the form that should be used when performing these excercises to prevent injury.
 * From the home page, select 'Workouts' from the navbar.
 * Scroll down to the particualr workout they want to view and click the "see How You Do It" button which loads the video instructing the user on how to perform the excericse safely and effectively.
 
-## Tablet user
+### Tablet user
 
 As an Ipad user, this user wanted to browse the site on an ipad and enjoy the content as if they were using a laptop or desktop.
 * Certain elements are presented in rows, as opposed to columns to allow a visually satisfying experience.
@@ -235,7 +235,7 @@ I manually tested the design of the live project by doing the following:
 * Making sure the navbar transformed into a hamburger menu on smaller devices
 * Asking for feedback from friends and family who opened and interacted with the project on their devices.
 
-#### Results and changes
+### Results and changes
 * These manual tests led to minor changes in spacing and sizes of various content on the site.
 * One noticable change was the size of the navbar brand as this would push the hamburger menu onto the next line as it was too large on smaller devices.
 
@@ -264,7 +264,7 @@ To make my project viewable to others, I deployed my project to GitHub Pages wit
 * Here I selected 'master branch' as my Source.
 * This deployed my project on GitHub Pages and allowed me to share the live website with others.
 
-# Cloning my project
+#### Cloning my project
 If you would like to work on my project further you can clone it to your local machine using the following steps:
 
 1. Scroll to the top of my repository and click on the "clone or download button"
