@@ -1,7 +1,7 @@
 # Code Institute: First Milestone Project
 # Spartan Training
 
-![Website on different platforms](assets/images/reposnsive-website.png)
+![Website on different platforms](assets/README-Images/reposnsive-website.png)
 
 Spartan Training is a fictional fitness website that aims to help and inform people on how to achieve their fitness goals. My aim with this project was to create a website for the user to learn more about workouts and diet plans with the option to sign-up for futher workout information.
 
@@ -38,15 +38,15 @@ I am a user who prefers using my Ipad to browse the internet. I want to have a g
 
 # Design Process
 
-### Strategy plane: From the onset, I knew that my primary aim was to help users have quick easy access to high quality workouts and diet plan material, in a way that made users feel part of something, engaging and memorable. As I had just begun to develop my Coding skills, my aim for this particular project was to design a project that combined what I have learned so far. I then started the UX process by creating a list of User Stories above, they enabled me to create a platform the would find valuable and useful.
+* Strategy plane: From the onset, I knew that my primary aim was to help users have quick easy access to high quality workouts and diet plan material, in a way that made users feel part of something, engaging and memorable. As I had just begun to develop my Coding skills, my aim for this particular project was to design a project that combined what I have learned so far. I then started the UX process by creating a list of User Stories above, they enabled me to create a platform the would find valuable and useful.
 
-### Scope plane: Having decided the main purpose for the project, I began identfying the key features i wanted the platform to feature. To do so, I focused on the features and style I wanted to implement, as I knew this would be important in creating an enjoyable experience for the user. This led me to decide that I wanted to focus on a site with three features: a workout page, a meal plan page and a sign up page.
+* Scope plane: Having decided the main purpose for the project, I began identfying the key features i wanted the platform to feature. To do so, I focused on the features and style I wanted to implement, as I knew this would be important in creating an enjoyable experience for the user. This led me to decide that I wanted to focus on a site with three features: a workout page, a meal plan page and a sign up page.
 
-### Strcuture plane: Once I had the features I wanted to include, I began to structure my design into four seperate pages: 'Home', 'Workouts', 'Meal Plans', 'Sign Up'. The 'Home' page would welcome users to the project with a inspiring hero image and info regarding the company. The user can then continue to 'Workouts' to learn and see a daily workouts, the user can then proceed to: 'Meal Plans'. The user can then proceed to the 'Sign Up' page to sign up for new workouts and meal plans.
+* Strcuture plane: Once I had the features I wanted to include, I began to structure my design into four seperate pages: 'Home', 'Workouts', 'Meal Plans', 'Sign Up'. The 'Home' page would welcome users to the project with a inspiring hero image and info regarding the company. The user can then continue to 'Workouts' to learn and see a daily workouts, the user can then proceed to: 'Meal Plans'. The user can then proceed to the 'Sign Up' page to sign up for new workouts and meal plans.
 
-### Skeleton plane: As though out in the structre plane, I considered the main way for the user to navigate the website, through the a fixed navbar. The reason for this was to give the user a simple way to navigate through the site. The user can navigate through the site a view the content eaily learning about workous and meal plans before then having the option to sign up.
+* Skeleton plane: As though out in the structre plane, I considered the main way for the user to navigate the website, through the a fixed navbar. The reason for this was to give the user a simple way to navigate through the site. The user can navigate through the site a view the content eaily learning about workous and meal plans before then having the option to sign up.
 
-### Surface plane:
+* Surface plane:
 
 * For my design to work, I knew that it would be extremely important to create a platform that looked high value and created a community feel to stand out from the competition. There is a lot of bodybuilding and gym sites, as nowadays it has become a really popular area with lots of content available to internet users. My first design decision was to create a platform that stood out and scramed different from all other workout sites, rather than something users have seen before, with valuable color scheme and inspiring images that would inspire the user and make them buy into the Spartan community.
 
@@ -61,13 +61,13 @@ I am a user who prefers using my Ipad to browse the internet. I want to have a g
 
 # Wireframing on Wireframe.cc
 
-![Wireframe](assets/images/milestone-project-homepage.PNG)
+![Wireframe](assets/README-Images/milestone-project-homepage.PNG)
 
-![Wireframe](assets/images/workout-page-milestone-project.PNG)
+![Wireframe](assets/README-Images/workout-page-milestone-project.PNG)
 
-![Wireframe](assets/images/dietpage-milestone-project.PNG)
+![Wireframe](assets/README-Images/dietpage-milestone-project.PNG)
 
-![Wireframe](assets/images/sign-up-page-milestone-project.PNG)
+![Wireframe](assets/README-Images/sign-up-page-milestone-project.PNG)
 
 # Features
 
@@ -203,10 +203,10 @@ workout.html - This file passed without any errors.
 meal-plans.html - This file passed without any errors.
 sign-up.html - On my sign-up page i was giving two errors by the Vaildation Service, the value for the attribute type was incorrect as I had "button submit" this was changed to just submit and the other error was that the anchor element must not appear as a descendant of the button element, I changed this by nesting the button element in a form element instaed which linked the user back to the homepage. This can be seen below.
 
-![Sign-Up page errors](assets/images/sign-up-page-errors.PNG)
+![Sign-Up page errors](assets/README-Images/sign-up-page-errors.PNG)
 
 
-![Sign-Up page changes](assets/images/sign-up-form-change.PNG)
+![Sign-Up page changes](assets/README-Images/sign-up-form-change.PNG)
 
 
 ### CSS
@@ -214,9 +214,9 @@ I checked my CSS code with the W3C Markup Validation Service. This produced thre
 * Error one and two was there was a comma missing between fonts in the font-family style rule.
 * Error three was a .my-3 error this was a piece of code that I had forgotten to remove from my style sheet so this just had to be erased from the style sheet. Please see these errors below.
 
-![CSS Errors](assets/images/CSS-Code-Check.PNG)
+![CSS Errors](assets/README-Images/CSS-Code-Check.PNG)
 
-![CSS Validated](assets/images/CSS-Code-Check-Pass.PNG)
+![CSS Validated](assets/README-Images/CSS-Code-Check-Pass.PNG)
 
 ### Testing compatibility with different browsers
 
