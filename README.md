@@ -264,6 +264,8 @@ To make my project viewable to others, I deployed my project to GitHub Pages wit
 * Here I selected 'master branch' as my Source.
 * This deployed my project on GitHub Pages and allowed me to share the live website with others.
 
+More information about this process can be found on the following link: [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
 #### Cloning my project
 If you would like to work on my project further you can clone it to your local machine using the following steps:
 
@@ -275,6 +277,8 @@ If you would like to work on my project further you can clone it to your local m
 1. Change the current working directory to the location where you want the cloned directory
 1. Type 'git clone', and then paste the URL you copied earlier.
 1. Press 'Enter' to create your local clone.
+
+You can find both the source of this information and learn more about the process on the following link: [Cloning A Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) 
 
 ### Credits
 
@@ -295,7 +299,7 @@ A big thanks is owed to the following people who helped, supported and inspired 
 
 * The guidance, support and critique of my mentor Seun Owonikoko
 * The support of Code Institute, fellow students on the Slack Community who viewed my project through the peer review, The Code Institute teachers who inspired a lot of the code used in this project which I learned in the modules leading up to this project.
-* Friends and Family who trsted the site and gave honest feedback throughout.
+* Friends and Family who tested the site and gave honest feedback throughout.
 
 
 
